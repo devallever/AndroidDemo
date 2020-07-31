@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    android:fitsSystemWindows="true">
+    android:id="@+id/rootLayout">
 
 
     <Button
+        android:id="@+id/btnTest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ButtonButtonButton"/>

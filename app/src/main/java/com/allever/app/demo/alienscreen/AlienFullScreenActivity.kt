@@ -5,11 +5,15 @@ import android.graphics.Rect
 import android.os.Build
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.view.WindowInsets
 import android.view.WindowManager
+import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.allever.app.demo.R
+import com.allever.app.demo.util.getStatusBarHeight
 import com.allever.app.demo.util.log
+import kotlinx.android.synthetic.main.activity_alien_full_screen.*
 
 
 class AlienFullScreenActivity : AppCompatActivity() {
@@ -47,6 +51,15 @@ class AlienFullScreenActivity : AppCompatActivity() {
             window.attributes = layoutParams
         }
 
+        val statusBarView = View(this)
+        statusBarView.id = statusBarView.hashCode()
+        statusBarView.setBackgroundResource(R.drawable.top_bar_bg)
+        val statusBarHeight = getStatusBarHeight(this)
+        val lp = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, statusBarHeight)
+        rootLayout.addView(statusBarView, lp)
+
+        val btnLp = btnTest.layoutParams as? RelativeLayout.LayoutParams
+        btnLp?.addRule(RelativeLayout.BELOW, statusBarView.id)
 
         getNotchParams()
     }
