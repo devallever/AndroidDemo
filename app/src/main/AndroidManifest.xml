@@ -9,8 +9,8 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
-		<activity android:name=".alienscreen.AlienScreenMainActivity"
-			android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+		<activity android:name=".alienscreen.AlienFullScreenActivity"
+			android:theme="@style/FullScreenStyle">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 
