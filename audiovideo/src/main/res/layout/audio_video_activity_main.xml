@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-		android:orientation="vertical">
+        android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnStartActivity"
+            android:id="@+id/btnDrawImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="start Activity" />
-
-		<Button
-			android:id="@+id/btnAudioVideo"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:text="音视频Demo"/>
+            android:text="三种方式绘制图片" />
 
     </LinearLayout>
-
 
 </ScrollView>

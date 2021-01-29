@@ -11,8 +11,8 @@ import android.view.WindowManager
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.allever.app.demo.R
-import com.allever.app.demo.util.getStatusBarHeight
-import com.allever.app.demo.util.log
+import allever.android.lib.compent.common.util.getStatusBarHeight
+import allever.android.lib.compent.common.util.log
 import kotlinx.android.synthetic.main.activity_alien_full_screen.*
 
 

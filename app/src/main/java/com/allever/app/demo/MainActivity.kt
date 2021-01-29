@@ -2,8 +2,9 @@ package com.allever.app.demo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.allever.app.demo.audiovideo.MainActivity
 import com.allever.app.demo.memoryleak.MemoryLeakActivity
-import com.allever.app.demo.util.ActivityCollector
+import allever.android.lib.compent.common.util.ActivityCollector
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         btnStartActivity.setOnClickListener {
             ActivityCollector.startActivity(this, MemoryLeakActivity::class.java)
+        }
+
+        btnAudioVideo.setOnClickListener {
+            ActivityCollector.startActivity(this, MainActivity::class.java)
         }
 
     }

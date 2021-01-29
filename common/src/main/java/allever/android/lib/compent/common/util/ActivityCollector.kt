@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.allever.app.demo.util
+package allever.android.lib.compent.common.util
 
 import android.app.Activity
 import android.content.Context

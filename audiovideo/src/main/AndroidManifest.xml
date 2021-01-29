@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allever.app.demo.audiovideo">
+
+    <application>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".drawimage.DrawImageActivity"/>
+    </application>
+</manifest>

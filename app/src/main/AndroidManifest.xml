@@ -17,7 +17,7 @@
 <!--        <meta-data android:name="android.max_aspect" android:value="2.4" />-->
 
         <activity
-            android:name=".constraint.ConstraintMainActivity"
+            android:name=".MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

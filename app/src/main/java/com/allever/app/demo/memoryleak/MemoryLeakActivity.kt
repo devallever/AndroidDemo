@@ -1,19 +1,13 @@
 package com.allever.app.demo.memoryleak
 
 import android.animation.ObjectAnimator
-import android.animation.ValueAnimator.INFINITE
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Handler
-import android.os.Message
-import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.allever.app.demo.R
-import com.allever.app.demo.util.log
-import kotlinx.android.synthetic.main.activity_memory_leak.*
+import allever.android.lib.compent.common.util.log
 
 class MemoryLeakActivity: AppCompatActivity(), MemoryLeakSingleton.Observer {
     private val mHandler = Handler()
