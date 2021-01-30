@@ -11,9 +11,13 @@
 
         <Button
             android:id="@+id/btnDrawImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/audio_video_btn_style"
             android:text="三种方式绘制图片" />
+
+        <Button
+            android:id="@+id/btnAudioRecordAPI"
+            style="@style/audio_video_btn_style"
+            android:text="使用AudioRecord录制音频" />
 
     </LinearLayout>
 

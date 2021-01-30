@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="audio_video_default_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="audio_video_btn_style" parent="audio_video_default_style" />
+
+    <style name="audio_video_tv_style" parent="audio_video_default_style" />
+
+</resources>

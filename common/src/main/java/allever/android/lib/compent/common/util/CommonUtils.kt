@@ -2,6 +2,7 @@ package allever.android.lib.compent.common.util
 
 import android.content.Context
 import android.util.Log
+import android.widget.Toast
 
 
 private val TAG = "ILogger"
@@ -25,4 +26,9 @@ fun getStatusBarHeight(context: Context): Int {
 
 fun log(content: String) {
     Log.d(TAG, content)
+}
+
+fun toast(msg: String?) {
+    val s = msg ?: ""
+    Toast.makeText(App.context, s, Toast.LENGTH_SHORT).show()
 }

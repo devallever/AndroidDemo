@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnStartRecord"
+        style="@style/audio_video_btn_style"
+        android:text="开始录制音频" />
+
+    <Button
+        android:id="@+id/btnStopRecord"
+        style="@style/audio_video_btn_style"
+        android:text="停止录制音频" />
+
+    <TextView
+        android:id="@+id/tvPcmPath"
+        style="@style/audio_video_tv_style"
+        android:text="PCM音频路径: " />
+
+    <Button
+        android:id="@+id/btnCovertWav"
+        style="@style/audio_video_btn_style"
+        android:text="保存为wav" />
+
+
+    <TextView
+        android:id="@+id/tvWavPath"
+        style="@style/audio_video_tv_style"
+        android:text="WAV音频路径: " />
+
+    <Button
+        android:id="@+id/btnPlayRecord"
+        style="@style/audio_video_btn_style"
+        android:text="播放音频" />
+
+</LinearLayout>
