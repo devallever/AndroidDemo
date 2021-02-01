@@ -35,4 +35,9 @@
         style="@style/audio_video_btn_style"
         android:text="播放音频" />
 
+    <Button
+        android:id="@+id/btnStopPlayRecord"
+        style="@style/audio_video_btn_style"
+        android:text="停止播放音频" />
+
 </LinearLayout>
