@@ -19,6 +19,11 @@
             style="@style/audio_video_btn_style"
             android:text="使用AudioRecord录制音频" />
 
+        <Button
+            android:id="@+id/btnCameraAPI"
+            style="@style/audio_video_btn_style"
+            android:text="使用Camera采集视频数据" />
+
     </LinearLayout>
 
 </ScrollView>

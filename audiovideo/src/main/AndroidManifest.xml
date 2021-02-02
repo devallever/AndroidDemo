@@ -4,10 +4,12 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application>
         <activity android:name=".MainActivity"/>
         <activity android:name=".drawimage.DrawImageActivity"/>
         <activity android:name=".audiorecord.AudioRecordActivity" />
+        <activity android:name=".camera.CameraActivity"/>
     </application>
 </manifest>
